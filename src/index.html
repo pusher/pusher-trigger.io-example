@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Hello World!</title>
+	<title>Hello Pusher and Trigger.io!</title>
 	<link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.mobile-1.1.0.min.js"></script>
@@ -13,27 +13,33 @@
 <div data-role="page">
 
 	<div data-role="header">
-		<h1>Hello World!</h1>
+		<h1>Hello Pusher and Trigger.io!</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">
-		<p>Congratulations on installing Forge!</p>
+	  
+	  <p>Congratulations on getting the Pusher &amp; Trigger.io example running</p>
 		<p>This is an example project built with simple HTML, CSS and JavaScript.</p>
+	  
+	  <h2>Pusher</h2>
+		<label>Connection status: </label><span id="connectionStatus">not loaded</span><br />
+		<label>Subscription status: </label><span id="subscriptionStatus">not loaded</span><br />
+		
+		<h2>my-event data</h2>
+		<div id="myEventData">no data received</div>
 		
 		<h3>Getting started</h3>
 
-		<p>If you're here, you've probably already seen <a href="http://current-docs.trigger.io/">the Forge documentation</a>.</p>
-		<p>Keep an eye on our <a href="https://trigger.io/cross-platform-application-development-blog/">blog</a> which has regular developer tips and news.</p>
-
-		<h3>Next steps</h3>
-
-		<p>You could try going through <a href="http://current-docs.trigger.io/tutorials/weather/index.html">a tutorial</a>, or looking at <a href="http://current-docs.trigger.io/modules/index.html">available modules</a>.</p>
-		<p>If you have any questions, you can use <a href="http://stackoverflow.com/questions/tagged/trigger.io">StackOverflow</a> or <a href="mailto:support@trigger.io">send us an email</a>.</p>
+		<ul>
+		  <li><a href="http://pusher.com/docs">Pusher docs</a></li>
+		  <li><a href="http://current-docs.trigger.io/">Forge documentation</a></li>
+		</ul>
 
 	</div><!-- /content -->
 
 	<div data-role="footer">
-		<h4>Get in touch:
+		<h4>
+		  <a href="mailto:support@pusher.com">support@pusher.com</a> |
 			<a href="mailto:support@trigger.io">support@trigger.io</a>
 		</h4>
 	</div><!-- /footer -->
